@@ -15,6 +15,7 @@ public class Main {
 
         // making moves in a loop
         while (!gameEngine.isComplete(board).isOver()) {
+            System.out.println(board);
             System.out.println("Make your move bih");
             Player computer = new Player("O"), opponent = new Player("X");
 
